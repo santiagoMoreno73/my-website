@@ -5,12 +5,16 @@ import { Container } from "./LayoutStyle"
 import Header from "../components/Header/Header"
 import Footer from "../components/Footer/Footer"
 import Navbar from "../components/Navbar/Navbar"
-import {GlobalStyles} from '../styles/globals'
+import { GlobalStyles } from "../styles/globals"
 
 const Layout = ({ children }) => {
+  if (typeof window !== "undefined") {
+    // eslint-disable-next-line global-require
+    require("smooth-scroll")('a[href*="#"]')
+  }
   return (
     <>
-    <GlobalStyles></GlobalStyles>
+      <GlobalStyles></GlobalStyles>
       <Navbar />
       <Container>
         <Header />

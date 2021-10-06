@@ -2,7 +2,7 @@ export const DataCards = [
   {
     img: "https://firebasestorage.googleapis.com/v0/b/images-beb06.appspot.com/o/CarritoVanillaja.png?alt=media&token=5f9e2fe1-bb32-4287-89eb-c473070c2a71",
     name: "CARRITO DE COMPRAS",
-    description: "arrito de compras en Vanilla JS",
+    description: "Carrito de compras en Vanilla JS",
     link: "https://carrito-compras-ebon.vercel.app/",
   },
   {

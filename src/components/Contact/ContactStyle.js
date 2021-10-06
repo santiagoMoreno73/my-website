@@ -8,7 +8,6 @@ export const Div1 = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 5em;
 
   p {
     font-size: 1.3em;
@@ -21,6 +20,6 @@ export const Div1 = styled.div`
     margin: 3em;
   }
 `
-export const DivButton = styled.div`
+export const DivLinks = styled.div`
   display: flex;
 `

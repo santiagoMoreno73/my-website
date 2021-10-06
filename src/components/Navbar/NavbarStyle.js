@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const NavMenu = styled.nav`
   position: fixed;
+  z-index: 1;
   justify-content: center;
   background: White;
   top: 0;

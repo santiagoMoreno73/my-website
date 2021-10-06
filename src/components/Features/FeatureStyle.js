@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-  margin-top: 4em;
+  height: 100vh;
+  align-items: center;
   display: grid;
   grid-gap: 1em;
   grid-template-columns: repeat(3, 1fr);
@@ -10,7 +11,7 @@ export const DataCard = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 20.75em;
-  min-height: 20.75em;
+  min-height: 25em;
   overflow: hidden;
   border-radius: 0.5em;
   text-decoration: none;
