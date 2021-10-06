@@ -89,16 +89,3 @@ export const DataCard = styled.a`
     }
   }
 `
-export const Card = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 240px;
-  margin: 18px;
-  border-radius: 20px;
-  transition: 450ms;
-  transform-origin: center;
-  &:hover {
-    transform: scale(1.2);
-  }
-`

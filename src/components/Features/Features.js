@@ -11,7 +11,7 @@ const Features = () => {
     <Container id="projects">
       {DataCards.map(({ img, name, description, link }) => (
         <DataCard>
-          <img src={img} alt="img de Rick" />
+          <img src={img} alt="img" />
           <h4>{name}</h4>
           <p>{description}</p>
           <a href={link} className="link-text">
