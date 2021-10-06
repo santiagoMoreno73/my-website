@@ -51,9 +51,10 @@ export const DataCard = styled.a`
     transition: opacity 0.45s ease, transform 0.5s ease;
   }
 
-  span {
+  a {
     display: block;
     color: #0099ff;
+    text-decoration: none;
     font-size: 1.125em;
     font-weight: 600;
     line-height: 1.2;
