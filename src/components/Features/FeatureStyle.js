@@ -6,7 +6,7 @@ export const Container = styled.div`
   grid-gap: 1em;
   grid-template-columns: repeat(3, 1fr);
 `
-export const DataCard = styled.a`
+export const DataCard = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 20.75em;

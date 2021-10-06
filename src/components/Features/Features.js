@@ -10,7 +10,7 @@ const Features = () => {
   return (
     <Container id="projects">
       {DataCards.map(({ img, name, description, link }) => (
-        <DataCard>
+        <DataCard key={`project-${name}-${Math.random()}`}>
           <img src={img} alt="img" />
           <h4>{name}</h4>
           <p>{description}</p>
