@@ -1,16 +1,15 @@
-import React from 'react'
+import React from "react"
 
-import Grid from '@mui/material/Grid';
+import { Slings } from "../../assets/icons/Config"
 
-import { Slings } from '../../assets/icons/Config';
 const Footer = () => {
-    return (
-        <>
-        <Grid container xs={12} md={12}>
+  return (
+    <>
+      <div>
         <Slings />
-        </Grid>
-        </>
-    )
+      </div>
+    </>
+  )
 }
 
 export default Footer
