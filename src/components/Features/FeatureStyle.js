@@ -20,6 +20,10 @@ export const DataCard = styled.a`
   box-shadow: 0 1.5em 2.5em -0.5em rgba(#000000, 0.1);
   transition: transform 0.45s ease, background 0.45s ease;
 
+  img {
+    width: 200px;
+  }
+
   h3 {
     color: #2e3c40;
     font-size: 3em;
