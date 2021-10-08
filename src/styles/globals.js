@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components"
+import NunitoLight from "../assets/fonts/NunitoSans-Light.ttf"
 
 export const GlobalStyles = createGlobalStyle`
 * {
@@ -8,7 +9,10 @@ export const GlobalStyles = createGlobalStyle`
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;600&display=swap");
+@font-face{
+  font-family: 'Nunito Sans';
+  src: url(${NunitoLight})
+}
 
 html {
   scroll-behavior: smooth;
@@ -16,14 +20,14 @@ html {
 
 body {
   margin: 0;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans';
 }
 
 code {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans';
 }
 
 button {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans';
 }
 `

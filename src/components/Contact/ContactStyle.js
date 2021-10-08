@@ -9,6 +9,9 @@ export const Div1 = styled.div`
   align-items: center;
   flex-direction: column;
 
+  @media ${props => props.theme.breakpoints.md} {
+    margin-top: 2em;
+  }
   p {
     font-size: 1.3em;
   }

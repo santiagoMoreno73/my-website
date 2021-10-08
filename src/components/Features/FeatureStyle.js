@@ -69,7 +69,7 @@ export const DataCard = styled.div`º
     font-size: 1.125em;
     font-weight: 600;
     line-height: 1.2;
-    margin: auto 0 0;
+    margin: 3.8em 0 0 0;
     transition: color 0.45s ease;
   }
 
