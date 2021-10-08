@@ -6,8 +6,14 @@ export const Container = styled.div`
   display: grid;
   grid-gap: 1em;
   grid-template-columns: repeat(3, 1fr);
+
+  @media ${props => props.theme.breakpoints.md} {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 `
-export const DataCard = styled.div`
+export const DataCard = styled.div`º
   display: flex;
   flex-direction: column;
   max-width: 20.75em;
