@@ -8,8 +8,4 @@ export const Container = styled.div`
   h2 {
     font-size: 2em;
   }
-
-  @media ${props => props.theme.breakpoints.md} {
-    margin: 10px;
-  }
 `

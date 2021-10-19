@@ -1,19 +1,23 @@
 import React from "react"
+import Burger from "./Burger"
 
 // style
-import { NavMenu } from "./NavbarStyle"
-
-// link
-import { Link } from "gatsby"
+import { Nav } from "./NavbarStyle"
 
 const Navbar = () => {
   return (
-    <NavMenu>
-      <Link to="/#about">AboutMe</Link>
-      <Link to="/#projects">Proyectos</Link>
-      <Link to="/#contact">Contact</Link>
-      <div className="dot"></div>
-    </NavMenu>
+    <>
+      <Nav>
+        <div className="logo">Logo</div>
+        <Burger />
+      </Nav>
+    </>
+    //<NavMenu>
+    //  <Link to="/#about">AboutMe</Link>
+    //  <Link to="/#projects">Proyectos</Link>
+    //  <Link to="/#contact">Contact</Link>
+    //  <div className="dot"></div>
+    //</NavMenu>
   )
 }
 

@@ -6,7 +6,7 @@ import { IconDevelop } from "../../assets/icons/Config"
 
 const Header = () => {
   return (
-    <Container>
+    <Container id="inicio">
       <Div1>
         <p>
           Hello, my name is Santiago<br></br>I'm developer

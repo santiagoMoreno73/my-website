@@ -7,11 +7,13 @@ import Footer from "../components/Footer/Footer"
 import Navbar from "../components/Navbar/Navbar"
 import Theme from "../styles/theme"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, width }) => {
+  const isMobile = width === "xs" || width === "sm"
+
   return (
     <Theme>
       <Navbar />
-      <Container>
+      <Container deviceType={{ mobile: isMobile }}>
         <Header />
         <main>{children}</main>
       </Container>
