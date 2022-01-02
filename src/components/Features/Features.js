@@ -1,14 +1,14 @@
 import React from "react"
 
 // style
-import { Container, DataCard } from "./FeatureStyle"
+import { DataCard } from "./FeatureStyle"
 
 // mics
 import { DataCards } from "../../utils/misc"
 
 const Features = () => {
   return (
-    <Container id="projects">
+    <div id="projects" className="d-flex flex-wrap justify-content-center mt-5">
       {DataCards.map(({ img, name, description, link }) => (
         <DataCard key={`project-${name}-${Math.random()}`}>
           <img src={img} alt="img" />
@@ -19,7 +19,7 @@ const Features = () => {
           </a>
         </DataCard>
       ))}
-    </Container>
+    </div>
   )
 }
 

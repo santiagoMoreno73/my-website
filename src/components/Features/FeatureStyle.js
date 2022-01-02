@@ -1,27 +1,14 @@
 import styled from "styled-components"
 
-export const Container = styled.div`
-  height: 100vh;
-  align-items: center;
-  display: grid;
-  grid-gap: 1em;
-  grid-template-columns: repeat(3, 1fr);
-
-  @media ${props => props.theme.breakpoints.md} {
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-`
-export const DataCard = styled.div`º
+export const DataCard = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 20.75em;
+  max-width: 18em;
   min-height: 25em;
   overflow: hidden;
   border-radius: 0.5em;
   text-decoration: none;
-  background: white;
+  background: #dbecf3;
   margin: 1em;
   padding: 2.75em 2.5em;
   box-shadow: 0 1.5em 2.5em -0.5em rgba(#000000, 0.1);

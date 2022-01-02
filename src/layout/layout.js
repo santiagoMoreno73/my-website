@@ -8,12 +8,10 @@ import Navbar from "../components/Navbar/Navbar"
 import Theme from "../styles/theme"
 
 const Layout = ({ children, width }) => {
-  const isMobile = width === "xs" || width === "sm"
-
   return (
     <Theme>
       <Navbar />
-      <Container deviceType={{ mobile: isMobile }}>
+      <Container>
         <Header />
         <main>{children}</main>
       </Container>

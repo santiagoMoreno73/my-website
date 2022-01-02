@@ -12,12 +12,6 @@ const Navbar = () => {
         <Burger />
       </Nav>
     </>
-    //<NavMenu>
-    //  <Link to="/#about">AboutMe</Link>
-    //  <Link to="/#projects">Proyectos</Link>
-    //  <Link to="/#contact">Contact</Link>
-    //  <div className="dot"></div>
-    //</NavMenu>
   )
 }
 
