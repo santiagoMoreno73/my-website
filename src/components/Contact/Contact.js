@@ -1,11 +1,11 @@
 import React from "react"
 
+// link
+import { Link } from "gatsby"
+
 // style
 import { Button } from "./ContactStyle"
 import { IconGit, IconLinkdln } from "../../assets/icons/Config"
-
-// link
-import { Link } from "gatsby"
 
 const Contact = () => {
   return (
@@ -15,14 +15,17 @@ const Contact = () => {
           <p>Santiago Moreno</p>
         </div>
         <div className="col-6 d-flex justify-content-end">
-          <Link to="https://github.com/Santiago-testing">
+          <Link target="_blank" to="https://github.com/Santiago-testing">
             <Button>
               <IconGit />
             </Button>
           </Link>
         </div>
         <div className="col-6">
-          <Link to="https://www.linkedin.com/in/santiago-moreno-acosta-a0550b188/">
+          <Link
+            target="_blank"
+            to="https://www.linkedin.com/in/santiago-moreno-acosta-a0550b188/"
+          >
             <Button>
               <IconLinkdln />
             </Button>

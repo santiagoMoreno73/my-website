@@ -60,6 +60,12 @@ export const DataCard = styled.div`
     transition: color 0.45s ease;
   }
 
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
   &:hover {
     background: #0099ff;
     transform: scale(1.02);

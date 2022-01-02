@@ -11,7 +11,7 @@ import ImgStyled from "../../assets/img/styled-components.png"
 
 const AboutMe = () => {
   return (
-    <div className="container" id="about">
+    <div className="container my-5" id="about">
       <div className="row">
         <div className="col-md-6 col-sm-12 my-5">
           <div className="col-12">
