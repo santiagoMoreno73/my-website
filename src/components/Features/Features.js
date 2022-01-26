@@ -4,7 +4,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 // style
-import { DataCard, Button } from "./FeatureStyle"
+import { DataCard } from "./FeatureStyle"
 
 // mics
 import { DataCards } from "../../utils/misc"
@@ -23,11 +23,11 @@ const Features = () => {
           <div className="d-flex justify-content-between">
             <div className="d-flex align-items-end">
               <a href={link} target="_blank" className="link-text">
-                Observa
+                See project
               </a>
             </div>
             <div>
-              <Link target="_blank" to={linkGit}>
+              <Link target="_blank" rel="noopener" to={linkGit}>
                 <button>
                   <IconGit />
                 </button>

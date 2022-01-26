@@ -15,7 +15,7 @@ const Contact = () => {
           <p>Santiago Moreno</p>
         </div>
         <div className="col-6 d-flex justify-content-end">
-          <Link target="_blank" to="https://github.com/Santiago-testing">
+          <Link target="_blank" to="https://github.com/santiagoMoreno73">
             <Button>
               <IconGit />
             </Button>
