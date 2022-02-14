@@ -1,13 +1,10 @@
 import React from "react"
 
 //style
-import { DivLogos, Logos } from "./AboutMeStyled"
+import { DivLogos, Logo } from "./AboutMeStyled"
 
-import ImgGatsby from "../../assets/img/gatsby.png"
-import ImgJs from "../../assets/img/javascript.png"
-import ImgMaterial from "../../assets/img/material-ui.png"
-import ImgReact from "../../assets/img/react.png"
-import ImgStyled from "../../assets/img/styled-components.png"
+// data icons
+import { DataIcons } from "../../utils/misc"
 
 const AboutMe = () => {
   return (
@@ -26,13 +23,11 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="col-md-6 col-sm-12 my-5">
-          <div>
+          <div className="d-flex justify-content-center">
             <DivLogos>
-              <Logos src={ImgJs} alt="ImgJs" />
-              <Logos src={ImgReact} alt="ImgReact" />
-              <Logos src={ImgGatsby} alt="ImgGatsby" />
-              <Logos src={ImgMaterial} alt="ImgMaterial" />
-              <Logos src={ImgStyled} alt="ImgStyled" />
+              {DataIcons.map(dataicon => (
+                <Logo src={dataicon.img} alt={dataicon.name} />
+              ))}
             </DivLogos>
           </div>
         </div>

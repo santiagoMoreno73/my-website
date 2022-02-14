@@ -16,6 +16,7 @@ export const DataCard = styled.div`
 
   img {
     width: 200px;
+    height: 115px;
   }
 
   h3 {
