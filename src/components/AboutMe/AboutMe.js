@@ -16,9 +16,9 @@ const AboutMe = () => {
           </div>
           <div>
             <p>
-              I'm a web developer with React, I have knowledge in Next.js and
-              gatsby, I currently work with commercial web applications and I
-              consider myself passionate about new technologies
+              I'm a React web developer, I have knowledge in Next.js and gatsby,
+              I'm currently working with commercial web applications and I
+              consider myself passionate about new technologies.
             </p>
           </div>
         </div>
