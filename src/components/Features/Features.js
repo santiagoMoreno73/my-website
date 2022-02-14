@@ -22,7 +22,12 @@ const Features = () => {
           <p>{description}</p>
           <div className="d-flex justify-content-between">
             <div className="d-flex align-items-end">
-              <a href={link} target="_blank" className="link-text">
+              <a
+                href={link}
+                target="_blank"
+                className="link-text"
+                rel="noreferrer"
+              >
                 See project
               </a>
             </div>
